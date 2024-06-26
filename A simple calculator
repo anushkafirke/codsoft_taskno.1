@@ -1,0 +1,20 @@
+print("**********Calculator**********")
+
+num1= float(input("Enter number 1 :"))
+num2= float(input("Enter number 2 :"))
+
+print("select operator")
+print("choose \'1' for addition \nchoose \'2' for substraction \nchoose \'3' for multiplication \nchoose \'4' for division" )
+
+operation = int(input("Enter your choice :"))
+
+if operation == 1:
+    print("The value of operation selected:" , num1 + num2)
+elif operation == 2:
+    print("The value of operation selected:", num1 - num2)
+elif operation == 3:
+    print("The value of operation selected:", num1 * num2)
+elif operation == 4:
+    print("The value of operation selected:", num1 / num2)
+else:
+    print("invalid input")
